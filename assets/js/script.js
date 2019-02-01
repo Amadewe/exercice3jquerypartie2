@@ -1,4 +1,8 @@
-// Au clic sur le bouton, afficher une boite de dialogue avec le message de votre choix.
-$( '#clickMe' ).click(function() {
-  alert( 'Hello world' );
+// Afficher ou masquer la div text au clic des liens fournis.
+
+$('#show').click(function(){
+    $('#text').show();
+});
+$('#hide').click(function(){
+    $('#text').hide();
 });
